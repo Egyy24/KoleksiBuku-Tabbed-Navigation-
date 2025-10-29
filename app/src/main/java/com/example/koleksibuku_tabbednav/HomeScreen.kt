@@ -182,7 +182,7 @@ private fun StatsScreen(total: Int, fav: Int) {
         Text("Total Buku: $total", style = MaterialTheme.typography.bodyLarge)
         Text("Jumlah Favorit: $fav", style = MaterialTheme.typography.bodyLarge)
         Divider()
-        Text("Tips: tap bintang di daftar untuk menambah/menghapus favorit.",
+        Text("Jumlah Buku dan Favorit.",
             style = MaterialTheme.typography.bodyMedium)
     }
 }
