@@ -51,7 +51,6 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.padding(inner)
                     ) {
                         composable(Routes.Home.route) {
-                            // PASSING terjadi saat onOpenDetail dipanggil (navigate membawa bookId)
                             HomeScreen(onOpenDetail = { id ->
                                 nav.navigate(Routes.Detail.path(id))
                             })
